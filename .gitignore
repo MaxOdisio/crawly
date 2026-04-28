@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+.npm/
+
+# Build output
+dist/
+out/
+build/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Reports and Coverage
+coverage/
+report.json
+
+# OS files
+.DB_Store
+Thumbs.db
+
+# Enviroment variables
+.env
+.env.local
+

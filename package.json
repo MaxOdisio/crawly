@@ -1,0 +1,24 @@
+{
+  "name": "crawly",
+  "version": "1.0.0",
+  "description": "A simple web scraper.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "test": "vitest run"
+  },
+  "author": "themax",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^28.0.1",
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.4"
+  },
+  "dependencies": {
+    "jsdom": "^29.0.2",
+    "p-limit": "^7.3.0"
+  }
+}
