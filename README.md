@@ -26,10 +26,8 @@ npm install
 ## Usage
 
 ```bash
-npm start
+npm run start <url> <maxConcurrency> <maxPages>
 ```
-
-The crawler reads the entry point from `src/index.ts`. Edit that file to set your target URL and crawl options before running.
 
 ## Scripts
 
